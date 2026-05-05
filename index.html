@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title> 🤘 Şebnem Ferah Konser Operasyonu 🎸 </title>
+    <title> 🤘🎸 </title>
     <style>
         body {
             display: flex;
@@ -118,7 +118,7 @@
 
  function evet() {
         if (!onaylandi) {
-            document.getElementById('question').innerHTML = "Harika! Biletler satışa çıktığı an operasyonu başlatıyorum. O gün beraberiz!";
+            document.getElementById('question').innerHTML = "Harika! Biletler satışa çıktığı an almaya çalışıyorum. O gün beraberiz!";
             document.getElementById('anaGorsel').src = "number5.gif";
             document.getElementById('noBtn').style.display = 'none';
             document.getElementById('yesBtn').innerHTML = "Planı konuşalım! 💬";
@@ -128,7 +128,7 @@
             // WHATSAPP YÖNLENDİRMESİ
             // Telefon numaranı ülke koduyla beraber yaz (Örn: 905xxxxxxxxx)
             const telefonNumaram = "905071265840"; 
-            const mesaj = "Selam! Şebnem Ferah konseri için geldim, operasyon planını konuşalım mı? 😊";
+            const mesaj = "Selam! Şebnem Ferah konseri için geldim, planını konuşalım mı? 😊";
             const whatsappUrl = "https://wa.me/" + telefonNumaram + "?text=" + encodeURIComponent(mesaj);
             
             window.location.href = whatsappUrl;
@@ -150,7 +150,7 @@
             document.getElementById('noBtn').innerHTML = "Ya bilet alamazsak?";
         } 
         else if (hamle === 2) {
-            baslik.innerHTML = "B planımız hazır Maçka Parkı! Sandalyelerimizi atar, konseri dışarıdan dinleriz.";
+            baslik.innerHTML = "O zaman da B planımız hazır Maçka Parkı! Sandalyelerimizi atar, konseri dışarıdan dinleriz.";
             resim.src = "number3.gif";
             document.getElementById('noBtn').innerHTML = "Denemeye değer mi? :)";
         }
